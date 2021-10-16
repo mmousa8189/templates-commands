@@ -1,0 +1,21 @@
+{
+  "name": "name-app",
+  "version": "1.0.0",
+  "description": "Demo to name-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "name-app"
+  },
+  "author": "Mohame Mousa",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+  }
+}
