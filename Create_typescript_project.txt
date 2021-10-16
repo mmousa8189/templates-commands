@@ -1,0 +1,20 @@
+git init
+
+npm init
+
+mkdir ts
+cd ts
+tsc --init
+tslint --init
+touch app.ts
+
+cd ..
+mkdir js
+
+echo "/js/**\n/node_modules/**" > .gitignore
+
+## Open tsconfig.json
+## Change the following things:
+## Change outdir to "../js"
+## Enable all Strict Type-Checking option
+## Enable additional check
