@@ -5,13 +5,30 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	 "clear": "rm -rf dist/",
+     "clear:all": "rm -rf node_modules/ && npm run clear",
+     "start": "tsc && node dist/index.js",
+     "dev": "ts-node src/index.ts",
+     "postversion": "git push --tags"
   },
+  "keywords": [
+        "typescript",
+        "playground",
+        "create",
+        "simple",
+        "project",
+        "seed"
+    ],
   "repository": {
     "type": "git",
-    "url": "name-app"
+     "url": "git@github.com:username/name-app.git"
   },
-  "author": "Mohame Mousa",
+  "author": {
+	"name":"Mohame Mousa",
+	"email":"mohamedamousa00@gmail.com",
+	"url":"http://mohamedmousa.com/"
+},
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.4.4"
