@@ -2,8 +2,8 @@ git init
 
 npm init
 
-mkdir ts
-cd ts
+mkdir src
+cd src
 tsc --init
 tslint --init
 touch app.ts
