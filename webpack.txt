@@ -1,5 +1,17 @@
 npm install webpack webpack-cli --save-dev
 npm install html-webpack-plugin@next --save-dev
+npm run dev -- --devtool inline-source-map
+npm install clean-webpack-plugin --save-dev
+
+
+//To make our code work in older browsers, we must add the Babel loader
+npm install babel-loader @babel/core @babel/preset-env --save-dev
+
+//Working with Styles
+npm install --save-dev style-loader
+npm install --save-dev css-loader
+
+
 
 
 
